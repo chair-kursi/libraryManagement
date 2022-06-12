@@ -11,6 +11,9 @@ dotenv.config({ path: __dirname + '/.env' });
 const bodyParser = require("body-parser"); 
 app.use(bodyParser.json());
 
+app.get('/', (req, res)=>{
+    res.send("Home Page!!");
+})
 app.get("/test", (req, res) => {
     res.send("Working Fine!!");
 });
