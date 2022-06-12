@@ -1,6 +1,6 @@
-Currently the Server is running on port : 4000
+Currently the Server is running on : https://vkp-x-library.herokuapp.com/
 
-- BASEUrl - localhost:4000
+- BASEUrl - https://vkp-x-library.herokuapp.com/
 - Connect your mongoDb: 
     - create .env file
     - define a variable "DB_CONNECTION" and initialize its value as your mongoDb string
@@ -63,4 +63,3 @@ Currently the Server is running on port : 4000
         - PATCH BASEUrl/book/bookId
     - delete a Book
         - DELETE BASEUrl/book/bookId
-        
